@@ -1,0 +1,32 @@
+@charset "utf-8";
+$corDeFundo :'#292929';
+$corTextoLogo: '#c69c6d';
+
+//@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+
+
+// Import Bulma's core
+//@import "bulma.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "paper-kit.scss";
+
+
+.team {
+    text-align: center;
+    max-width: 220px;
+}
+
+.avatar {
+    padding: 15px;
+    max-width: 180px;
+    display: inline-block;
+}
+
+b{
+    font-weight: 600;
+}
+
+
